@@ -1,0 +1,106 @@
+:root{
+    --blanco: white;
+    --gris: gray;
+    --negro: black;  
+    --fuentetitulos:'Merriweather', serif;
+}
+
+header{
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    border-radius: 60px;
+    margin: 20px auto;
+    text-align: center;
+  
+} 
+
+body {
+    background-color: #F2B807;
+}
+  
+.container {
+    background-color: #307CBF;
+    width: 40%;
+    height: 70%;
+    border-radius: 60px;
+    box-shadow: 0 0 5px gray;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search{
+    border-radius: 10px;
+    margin: 20px auto;
+    text-align: center; 
+} 
+#pokemonInput{
+    width: 20rem;
+    height: 1.5rem;
+    border-radius: 8px;
+} 
+
+#evolucionarBtn{
+    width: 7rem;
+    height: 2rem;    
+    background-color: #F2B807;
+    color: white;
+    font-weight: bold;
+    margin-left: 14rem;
+}
+
+#pokemonInfo {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20rem;
+}
+  
+.hidden {
+    display: none;
+}
+  
+#habilidadesLista {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#pokemonImagen{
+    width: 50%;
+    height: 30%; 
+} 
+
+button{
+    width: 7rem;
+    height: 1.8rem;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(65, 114, 204);
+    border-radius: 8px;
+    
+}
+
+p,li,h2,a{
+    color: white;
+}
+
+#mensaje-error{
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    border-radius: 60px;
+    margin: 20px auto;
+    text-align: center; 
+}
+
+footer{
+    background-color:#1b3b9bc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border-radius: 5px;
+}

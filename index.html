@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokemon App</title>
+    <link rel="icon" href="./imagenes/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav class="navbar bg-body-tertiary">
+        <a href="index.html" class="logo-pokemon" href="#">
+            <img src="./imagenes/logoPokemon.png" alt="Bootstrap" width="400" height="200">
+        </a>    
+    </nav>
+</header>
+
+<body>
+    <div id="mensaje-error" style="display: none; color: red;"></div>
+    <div class="search">
+        <input type="text" id="pokemonInput" placeholder="Ingrese el nombre del Pokémon">
+        <button onclick="buscarPokemon()">Buscar</button>
+    </div>
+    <div class="container">
+
+        <div id="pokemonInfo" class="hidden">
+            <h2 id="pokemonNombre"></h2>
+            <img id="pokemonImagen" src="" alt="Pokemon">
+            <p id="pokemonDescripcion"></p>
+            <p>HABILIDADES:</p>
+            <ul id="habilidadesLista"></ul>
+            <p id="evolucion"></p>
+            <button id="evolucionarBtn">EVOLUCIONAR</button>
+
+        </div>
+    </div>
+
+  <footer>
+    <p>Derechos de autor &copy; Sitio web de comida India desarrollado por Daniela Rosa Villadiego Padilla. Contacto: <a href="mailto:daniela.villadiegop@udea.edu.co">daniela.villadiegop@udea.edu.co</a></p>
+</footer>
+<script src="./index.js"></script>
+</body>
+</html>
